@@ -154,19 +154,19 @@ body {
 }
 @media (max-width: 768px) {
     .nav-links {
-        display: flex; /* Always show nav links */
-        flex-direction: row; /* Keep them in a row */
-        position: static; /* Change position if necessary */
-        background-color: transparent; /* Optional: Make the background transparent */
-        padding: 0; /* Remove padding */
+        display: flex;
+        flex-direction: row; 
+        position: static; 
+        background-color: transparent; 
+        padding: 0; 
     }
 
 
     .nav-links.show {
-        display: flex; /* Show nav links when toggled */
+        display: flex; 
     }
 
     .menu-icon {
-        display: block; /* Show hamburger menu on small screens */
+        display: block; 
     }
 }
